@@ -2,10 +2,9 @@
 //
 // SPDX-License-Identifier: MIT OR Apache-2.0
 
-use rppal::gpio::{Gpio, Level};
+use rppal::gpio::Gpio;
 use std::sync::Arc;
 use std::sync::atomic::{AtomicBool, AtomicU8, Ordering};
-use std::thread;
 use std::time::Duration;
 
 pub fn servo(servo_pin: u8, period: u64, angle: Arc<AtomicU8>, stop: Arc<AtomicBool>) {
