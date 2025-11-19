@@ -5,6 +5,7 @@ edition = "2024"
 description = "A helper library for working with the Keyestudio KS0223 Smart Car"
 keywords = ["ks0223", "keyestudio"]
 categories = ["science::robotics", "hardware-support"]
+repository = "https://github.com/IverCoder/ks0223_helper"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
