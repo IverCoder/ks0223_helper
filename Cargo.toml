@@ -1,0 +1,11 @@
+[package]
+name = "ks0223_helper"
+version = "0.1.0"
+edition = "2024"
+description = "A helper library for working with the Keyestudio KS0223 Smart Car"
+keywords = ["ks0223", "keyestudio"]
+categories = ["science::robotics", "hardware-support"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+rppal = "0.22.1"
